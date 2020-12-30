@@ -1,0 +1,14 @@
+  apiVersion: storage.cnrm.cloud.google.com/v1beta1
+  kind: StorageBucket
+  metadata:
+    annotations:
+      cnrm.cloud.google.com/project-id : seroter-anthos
+      #configmanagement.gke.io/namespace-selector: config-supported
+    name: seroter-connector-bucket
+  spec:
+    lifecycleRule:
+      - action:
+          type: Delete
+        condition:
+          age: 7
+    uniformBucketLevelAccess: true
