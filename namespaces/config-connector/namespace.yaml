@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: config-connector
-  annotations:
-    configmanagement.gke.io/cluster-selector: selector-specialrole-connectorhost
-    cnrm.cloud.google.com/project-id: seroter-anthos
