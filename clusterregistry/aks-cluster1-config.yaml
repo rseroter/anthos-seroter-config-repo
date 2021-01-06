@@ -4,4 +4,4 @@ metadata:
   name: aks-cluster-1
   labels:
     environment: prod
-    cloud: aks
+    cloud: azure
