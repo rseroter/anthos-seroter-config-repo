@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: feature-flag-config
+data:
+    show_new_nav: "false"
+    show_billing_widget: "false"

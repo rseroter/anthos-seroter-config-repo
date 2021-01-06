@@ -1,0 +1,9 @@
+kind: ClusterSelector
+apiVersion: configmanagement.gke.io/v1
+metadata:
+    name: selector-cloud-gcp
+spec:
+    selector:
+        matchLabels:
+            cloud: gcp
+

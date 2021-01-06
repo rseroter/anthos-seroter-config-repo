@@ -5,3 +5,4 @@ metadata:
   labels:
     environment: prod
     specialrole: connectorhost
+    cloud: gcp

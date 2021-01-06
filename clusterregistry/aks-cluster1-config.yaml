@@ -1,7 +1,7 @@
 kind: Cluster
 apiVersion: clusterregistry.k8s.io/v1alpha1
 metadata:
-  name: gke-cluster-1
+  name: aks-cluster-1
   labels:
     environment: prod
-    cloud: gcp
+    cloud: aks
